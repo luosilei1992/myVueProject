@@ -1,0 +1,32 @@
+<template>
+  <router-view :key="route.path"/>
+</template>
+
+<script setup>
+import { useRoute } from "vue-router";
+const route = useRoute()
+</script>
+
+
+<script>
+export default {
+  name: "App",
+};
+</script>
+
+<style src="./style/style.css">
+
+</style>
+<style>
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+</style>
