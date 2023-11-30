@@ -1,11 +1,11 @@
 <template>
-    <div class="main">
+    <div id="main-body">
         <router-view />
     </div>
 </template>
 
 <style scoped>
-.main {
+#main-body {
     position: absolute;
     left: 0;
     top: 5.4vh;
